@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class QLCB {
-    private ArrayList<Canbo> dscb;
+    private ArrayList<Canbo103> dscb;
     public QLCB(){
-        dscb=new ArrayList<Canbo>(10);
+        dscb=new ArrayList<Canbo103>(10);
     }
-    public void themcb(Canbo cb){
+    public void themcb(Canbo103 cb){
         dscb.add(cb);
     }
     public void Nhaptt(Scanner sc){
-        Canbo cb;
+        Canbo103 cb;
         System.out.println("Nhập số lượng cán bộ");
         int n=sc.nextInt();
         int chon;
@@ -39,12 +39,12 @@ public class QLCB {
         }
     }
     public void Hienthi(){
-        for (Canbo cb : dscb) {
+        for (Canbo103 cb : dscb) {
             cb.Hienthi();
         }
     }
     public void Timkiem(String Hoten){
-        for (Canbo cb: dscb){
+        for (Canbo103 cb: dscb){
             if(Hoten.equals(cb.getHoten())){
                 cb.Hienthi();
             }

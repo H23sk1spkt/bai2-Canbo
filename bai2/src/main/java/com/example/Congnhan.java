@@ -3,14 +3,14 @@ package com.example;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class Congnhan extends Canbo {
+public class Congnhan extends Canbo103 {
     public String Bac;
     //hàm khơi toa ko doi so
     public Congnhan(){
 
     }
     //hàm khởi tạo có đối số
-    //Super dai dien cho kieu ham "Canbo" co doi so
+    //Super dai dien cho kieu ham "Canbo103" co doi so
     public Congnhan(String Hoten, LocalDate Ngaysinh, String Gioitinh, String Diachi,String Bac ) {
         super(Hoten,Ngaysinh,Gioitinh,Diachi);
         this.Bac=Bac;

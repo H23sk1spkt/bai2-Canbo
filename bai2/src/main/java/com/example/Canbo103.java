@@ -4,18 +4,18 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-public class Canbo {
+public class Canbo103 {
     private String Hoten;
     private LocalDate Ngaysinh;
     private String Gioitinh;
     private String Diachi;
     // phương thức
     //hàm khơi tạo ko có đối số
-    public Canbo(){
+    public Canbo103(){
 
     }
     //hàm khởi tạo có đối số
-    public Canbo(String Hoten, LocalDate Ngaysinh, String Gioitinh, String Diachi ){
+    public Canbo103(String Hoten, LocalDate Ngaysinh, String Gioitinh, String Diachi ){
         this.Hoten=Hoten;
         this.Ngaysinh=Ngaysinh;
         this.Gioitinh=Gioitinh;
