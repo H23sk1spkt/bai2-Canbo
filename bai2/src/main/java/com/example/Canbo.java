@@ -34,8 +34,9 @@ public class Canbo {
         Diachi_103=sc.nextLine();
     }
     public void Hienthi(){
+        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("dd/MM/yyyy");
         System.out.println("Họ và tên là "+ Hoten_103);
-        System.out.println("Ngày sinh là "+ Ngaysinh_103);
+        System.out.println("Ngày sinh là "+ Ngaysinh_103.format(formatter));
         System.out.println("Giới tính là "+ Gioitinh_103);
         System.out.println("Địa chỉ là "+ Diachi_103);
     }
